@@ -104,8 +104,8 @@ public class MainActivity<LocationServices> extends AppCompatActivity {
 
 
     public void onLocationChanged(Location location) {
-        int lat = (int) (location.getLatitude());
-        int lon = (int) (location.getLongitude());
+        double lat = (double) (location.getLatitude());
+        double lon = (double) (location.getLongitude());
 
         Log.i("E", "lat " + lat + "lon " + lon);
     }
@@ -161,8 +161,8 @@ public class MainActivity<LocationServices> extends AppCompatActivity {
 
             if (location != null) {
 
-                int lat = (int) (location.getLatitude());
-                int lon = (int) (location.getLongitude());
+                double lat = (double) (location.getLatitude());
+                double lon = (double) (location.getLongitude());
 
                 Log.i("E", "my lat " + lat + "my lon " + lon);
                 dLat.setText(String.valueOf(lat));
