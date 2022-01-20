@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BlueFaceTest1</string>
+    <string name="latatitude">Lat</string>
+    <string name="longditude">Lon</string>
+    <string name="city">City Name</string>
+    <string name="rank">City Rank</string>
+    <string name="placeholder">-</string>
 </resources>
