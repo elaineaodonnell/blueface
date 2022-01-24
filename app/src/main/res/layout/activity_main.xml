@@ -59,56 +59,86 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
-        android:rowCount="4"
+        android:rowCount="5"
         android:layout_margin="30dp">
         <TextView
             android:id="@+id/textview_cityName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/city" />
 
         <TextView
             android:id="@+id/textview_cityNameDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/placeholder" />
 
         <TextView
             android:id="@+id/textview_rankResponse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/rank" />
 
         <TextView
             android:id="@+id/textview_rankResponseDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/placeholder" />
 
         <TextView
             android:id="@+id/textview_latitude"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/latatitude" />
 
         <TextView
             android:id="@+id/textview_latitudeDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/placeholder" />
 
         <TextView
             android:id="@+id/textview_longitude"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/longditude" />
 
         <TextView
             android:id="@+id/textview_longitudeDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
             android:text="@string/placeholder" />
+        <TextView
+            android:id="@+id/textview_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:text="@string/temperature" />
 
+        <TextView
+            android:id="@+id/textview_temperatureDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:text="@string/placeholder" />
 
     </GridLayout>
 </LinearLayout>
