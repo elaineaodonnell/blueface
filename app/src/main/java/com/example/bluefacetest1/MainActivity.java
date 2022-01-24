@@ -78,8 +78,7 @@ public class MainActivity<LocationServices> extends AppCompatActivity {
 
         buttonAddDetails.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-                add(glt2);
+                                add(glt2);
             }
         });
 
