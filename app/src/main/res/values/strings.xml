@@ -5,4 +5,5 @@
     <string name="city">City Name</string>
     <string name="rank">City Rank</string>
     <string name="placeholder">-</string>
+    <string name="temperature">Temp</string>
 </resources>
